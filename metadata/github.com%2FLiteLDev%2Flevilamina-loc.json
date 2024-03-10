@@ -1,0 +1,74 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/LiteLDev/levilamina-loc",
+    "version": "1.0.1",
+    "info": {
+        "name": "levilamina-loc",
+        "description": "Language packs of LeviLamina",
+        "author": "LiteLDev",
+        "tags": [
+            "levilamina"
+        ]
+    },
+    "commands": {},
+    "files": {
+        "place": [
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/de.json",
+                "dest": "plugins/LeviLamina/lang/de.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/en.json",
+                "dest": "plugins/LeviLamina/lang/en.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/fr.json",
+                "dest": "plugins/LeviLamina/lang/fr.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/id.json",
+                "dest": "plugins/LeviLamina/lang/id.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/it.json",
+                "dest": "plugins/LeviLamina/lang/it.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/ja.json",
+                "dest": "plugins/LeviLamina/lang/ja.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/ko.json",
+                "dest": "plugins/LeviLamina/lang/ko.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/pt_BR.json",
+                "dest": "plugins/LeviLamina/lang/pt_BR.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/ru.json",
+                "dest": "plugins/LeviLamina/lang/ru.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/th.json",
+                "dest": "plugins/LeviLamina/lang/th.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/tr.json",
+                "dest": "plugins/LeviLamina/lang/tr.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/vi.json",
+                "dest": "plugins/LeviLamina/lang/vi.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/zh_CN.json",
+                "dest": "plugins/LeviLamina/lang/zh_CN.json"
+            },
+            {
+                "src": "github.com/LiteLDev/levilamina-loc@v1.0.1/lang/zh_TW.json",
+                "dest": "plugins/LeviLamina/lang/zh_TW.json"
+            }
+        ]
+    }
+}
