@@ -1,0 +1,103 @@
+{
+    "format_version": 2,
+    "tooth": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua",
+    "version": "0.4.8",
+    "info": {
+        "name": "LegacyScriptEngine with Lua backend",
+        "description": "A plugin engine for running LLSE plugins on LeviLamina",
+        "author": "LiteLDev",
+        "tags": [
+            "levilamina",
+            "plugin-engine"
+        ]
+    },
+    "commands": {},
+    "dependencies": {
+        "github.com/LiteLDev/LegacyMoney": "0.4.x",
+        "github.com/LiteLDev/LegacyParticleAPI": "0.4.x",
+        "github.com/LiteLDev/LegacyRemoteCall": "0.4.x"
+    },
+    "prerequisites": {
+        "github.com/LiteLDev/LeviLamina": "0.9.x"
+    },
+    "files": {
+        "place": [
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/baselib/BaseLib.js",
+                "dest": "plugins/legacy-script-engine-lua/baselib/BaseLib.js"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/baselib/BaseLib.lua",
+                "dest": "plugins/legacy-script-engine-lua/baselib/BaseLib.lua"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/baselib/BaseLib.py",
+                "dest": "plugins/legacy-script-engine-lua/baselib/BaseLib.py"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/de.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/de.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/en.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/en.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/fr.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/fr.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/id.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/id.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/it.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/it.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/ja.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/ja.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/ko.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/ko.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/pt_BR.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/pt_BR.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/ru.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/ru.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/th.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/th.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/tr.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/tr.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/vi.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/vi.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/zh_CN.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/zh_CN.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/lang/zh_TW.json",
+                "dest": "plugins/legacy-script-engine-lua/lang/zh_TW.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/legacy-script-engine-lua.dll",
+                "dest": "plugins/legacy-script-engine-lua/legacy-script-engine-lua.dll"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-lua@v0.4.8/legacy-script-engine-lua/manifest.json",
+                "dest": "plugins/legacy-script-engine-lua/manifest.json"
+            }
+        ]
+    }
+}
