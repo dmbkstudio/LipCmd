@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/LiteLDev/bdsdown",
+    "version": "0.5.1",
+    "info": {
+        "name": "bdsdown",
+        "description": "Downloader for Minecraft BDS",
+        "author": "LiteLDev",
+        "tags": [
+            "utility"
+        ]
+    },
+    "asset_url": "https://github.com/LiteLDev/bdsdown/releases/download/v0.5.1/bdsdown-windows-amd64.zip",
+    "commands": {},
+    "dependencies": {
+        "github.com/LiteLDev/bdsdown-legacy": "0.4.1"
+    },
+    "files": {
+        "place": [
+            {
+                "src": "bdsdown.exe",
+                "dest": "bdsdown.exe"
+            }
+        ]
+    }
+}

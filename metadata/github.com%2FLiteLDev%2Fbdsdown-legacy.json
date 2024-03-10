@@ -1,0 +1,21 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/LiteLDev/bdsdown-legacy",
+    "version": "0.4.1",
+    "info": {
+        "name": "bdsdown-legacy",
+        "description": "Legacy version of bdsdown",
+        "author": "LiteLDev",
+        "tags": []
+    },
+    "asset_url": "https://github.com/LiteLDev/bdsdown/releases/download/v0.4.1/bdsdown-windows-amd64.zip",
+    "commands": {},
+    "files": {
+        "place": [
+            {
+                "src": "bdsdown.exe",
+                "dest": ".lip/tools/bdsdown/bdsdown.exe"
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "format_version": 2,
+    "tooth": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs",
+    "version": "0.4.8",
+    "info": {
+        "name": "LegacyScriptEngine with QuickJs backend",
+        "description": "A plugin engine for running LLSE plugins on LeviLamina",
+        "author": "LiteLDev",
+        "tags": [
+            "levilamina",
+            "plugin-engine"
+        ]
+    },
+    "commands": {},
+    "dependencies": {
+        "github.com/LiteLDev/LegacyMoney": "0.4.x",
+        "github.com/LiteLDev/LegacyParticleAPI": "0.4.x",
+        "github.com/LiteLDev/LegacyRemoteCall": "0.4.x"
+    },
+    "prerequisites": {
+        "github.com/LiteLDev/LeviLamina": "0.9.x"
+    },
+    "files": {
+        "place": [
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/baselib/BaseLib.js",
+                "dest": "plugins/legacy-script-engine-quickjs/baselib/BaseLib.js"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/baselib/BaseLib.lua",
+                "dest": "plugins/legacy-script-engine-quickjs/baselib/BaseLib.lua"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/baselib/BaseLib.py",
+                "dest": "plugins/legacy-script-engine-quickjs/baselib/BaseLib.py"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/de.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/de.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/en.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/en.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/fr.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/fr.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/id.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/id.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/it.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/it.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/ja.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/ja.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/ko.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/ko.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/pt_BR.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/pt_BR.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/ru.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/ru.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/th.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/th.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/tr.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/tr.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/vi.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/vi.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/zh_CN.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/zh_CN.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/lang/zh_TW.json",
+                "dest": "plugins/legacy-script-engine-quickjs/lang/zh_TW.json"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/legacy-script-engine-quickjs.dll",
+                "dest": "plugins/legacy-script-engine-quickjs/legacy-script-engine-quickjs.dll"
+            },
+            {
+                "src": "gitea.litebds.com/LiteLDev/legacy-script-engine-quickjs@v0.4.8/legacy-script-engine-quickjs/manifest.json",
+                "dest": "plugins/legacy-script-engine-quickjs/manifest.json"
+            }
+        ]
+    }
+}
