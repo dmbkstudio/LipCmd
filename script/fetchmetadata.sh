@@ -22,9 +22,7 @@ curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/dmbkstudio/
 
 curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadata/github.com%2FLiteLDev%2FPreLoader.json > ./.lip/metadata/github.com%2FLiteLDev%2FPreLoader.json
 
-
-
-
+echo "[DONE]"
 
 
 
