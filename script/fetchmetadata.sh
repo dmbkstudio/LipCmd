@@ -1,6 +1,6 @@
-curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadata/gitea.litebds.com%252FLiteLDev%252Flegacy-script-engine-lua.json > ./.lip/metadata/gitea.litebds.com%252FLiteLDev%252Flegacy-script-engine-lua.json
+curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadatagitea.litebds.com%2FLiteLDev%2Flegacy-script-engine-lua.json> ./.lip/metadata/gitea.litebds.com%2FLiteLDev%2Flegacy-script-engine-lua.json
 
-curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadata/gitea.litebds.com%252FLiteLDev%252Flegacy-script-engine-quickjs.json > ./.lip/metadata/gitea.litebds.com%252FLiteLDev%252Flegacy-script-engine-quickjs.json
+curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadata/gitea.litebds.com%2FLiteLDev%2Flegacy-script-engine-quickjs.json > ./.lip/metadata/gitea.litebds.com%2FLiteLDev%2Flegacy-script-engine-quickjs.json
 
 curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadata/github.com%2FLiteLDev%2Fbds.json > ./.lip/metadata/github.com%2FLiteLDev%2Fbds.json
 
