@@ -43,7 +43,7 @@ const pluginConfigFile = {
   lipVersion: "v0.20.1",
   lipRepo: "https://github.com/lippkg/lip",
   lipGithubProxy: "https://github.bibk.top",
-  githubProxy: "${github_proxy}/",
+  githubProxy: "https://mirror.ghproxy.com/",
   goProxy: "https://goproxy.cn",
 };
 let pluginConfig = new JsonConfigFile(
