@@ -1,7 +1,4 @@
-pwd
-json_file="./plugins/Lipcmd/config/lipcmd.json"
-github_proxy=$(grep -Po '"githubProxy":.*?[^\\]",' "$json_file" | sed 's/"githubProxy": "\(.*\)",/\1/')
-
+github_proxy="https://mirror.ghproxy.com/"
 wget -qO- ${github_proxy}https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadata/gitea.litebds.com%252FLiteLDev%252Flegacy-script-engine-lua.json > ./.lip/metadata/gitea.litebds.com%2FLiteLDev%2Flegacy-script-engine-lua.json
 
 wget -qO- ${github_proxy}https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadata/gitea.litebds.com%252FLiteLDev%252Flegacy-script-engine-quickjs.json > ./.lip/metadata/gitea.litebds.com%2FLiteLDev%2Flegacy-script-engine-quickjs.json
