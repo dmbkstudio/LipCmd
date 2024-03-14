@@ -1,4 +1,4 @@
-export json_file="./plugins/Lipcmd/config/lipcmd.json"
+export json_file=./plugins/Lipcmd/config/lipcmd.json
 export github_proxy=$(grep -Po '"githubProxy":.*?[^\\]",' "$json_file" | sed 's/"githubProxy": "\(.*\)",/\1/')
 
 wget -qO- ${github_proxy}https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/metadata/gitea.litebds.com%252FLiteLDev%252Flegacy-script-engine-lua.json > ./.lip/metadata/gitea.litebds.com%2FLiteLDev%2Flegacy-script-engine-lua.json
