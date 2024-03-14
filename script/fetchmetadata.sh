@@ -1,3 +1,4 @@
+pwd
 json_file="./plugins/Lipcmd/config/lipcmd.json"
 github_proxy=$(grep -Po '"githubProxy":.*?[^\\]",' "$json_file" | sed 's/"githubProxy": "\(.*\)",/\1/')
 
