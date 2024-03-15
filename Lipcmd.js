@@ -1,6 +1,7 @@
 /// <reference path="C:/Users/Administrator/Documents/WORKDIR/HelperLib/src/index.d.ts" />
 
 // Plugin variables
+let pluginGithubTag = "0.0.1";
 let pluginPath = "./plugins/Lipcmd/";
 let binaryPath = pluginPath + "bin/";
 let tmpPath = pluginPath + "tmp/";
@@ -8,8 +9,8 @@ let lip = binaryPath + "lip.exe";
 let busybox = binaryPath + "busybox.exe" + " ";
 let wget = busybox + "wget";
 let unzip = busybox + "unzip";
-let curl = busybox + "curl";
-let bash = busybox + "bash";
+let bash = busybox + "bash -c ";
+let cp = busybox + "cp";
 
 // Create folders
 if (file.exists(tmpPath)) {
@@ -65,7 +66,7 @@ const i18nLangFile = {
     lipInitialization: "Lip 已安装，正在进行初始化……",
     lipInitializationFailed: "Lip 初始化失败，请检查你的配置文件……",
     lipInitializationSucceed: "Lip 初始化已完成！",
-    lipUnpackSucceed: "Lip 解压完成！请重启服务器!",
+    lipUnpackSucceed: "Lip 解压完成！",
     lipUnpackFailed: "Lip 解压失败，请再次尝试！",
     metadataDownload: "正在下载metadata…",
     lipCmdLoaded: "LipCmd 已成功加载! 使用方法: /lip --help",
@@ -83,7 +84,7 @@ const i18nLangFile = {
     lipInitializationFailed:
       "Lip Initialization failed, please check your configuration file!",
     lipInitializationSucceed: "Lip initialization completed!",
-    lipUnpackSucceed: "Lip unpacked! Please restart server!",
+    lipUnpackSucceed: "Lip unpacked!",
     lipUnpackFailed: "Lip unpack failed, please try again!",
     metadataDownload: "Downloading metadata…",
     lipCmdLoaded: "LipCmd loaded successfully! Usage: /lip --help",
@@ -121,16 +122,23 @@ mc.listen("onServerStarted", () => {
             log(" " + "\n" + lipConfigViewOutput);
             log(i18n.get("metadataDownload"));
             const githubProxy = pluginConfig.get("githubProxy");
-            const metadataFetchUrl =
+            const metadataDownloadUrl =
               githubProxy +
-              "https://raw.githubusercontent.com/dmbkstudio/LipCmd/main/script/fetchmetadata.sh";
+              "https://github.com/dmbkstudio/LipCmd/archive/refs/tags/v" +
+              pluginGithubTag +
+              ".zip";
             system.newProcess(
-              wget + " -qO " + tmpPath + "fetchmetadata.sh " + metadataFetchUrl,
+              wget + " -qO " + tmpPath + "metadata.zip " + metadataDownloadUrl,
               (_metaFetchExitCode, _metadataFetchOutput) => {
                 system.newProcess(
-                  bash + " " + tmpPath + "fetchmetadata.sh",
-                  (_runFetchExitCode, _runFetchOutput) => {
-                    file.delete("./plugins/Lipcmd/tmp/fetchmetadata.sh");
+                  unzip + " " + tmpPath + "metadata.zip -d " + tmpPath,
+                  (_metadataUnpackExitCode, _metadataUnpackOutput) => {
+                    system.newProcess(
+                      cp + " -rf " + tmpPath + "LipCmd-" + pluginGithubTag + "/.lip ./",
+                      (_metadataMoveExitCode, _metadataMoveOutput) => {
+                        file.delete(tmpPath + "metadata.zip");
+                        file.delete(tmpPath + "LipCmd-" + pluginGithubTag);
+                      });
                   }
                 );
               }
