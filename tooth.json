@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/dmbkstudio/LipCmd",
+    "version": "0.0.1",
+    "info": {
+        "name": "LipCmd",
+        "description": "LipcCmd tool for levilamina.",
+        "author": "dmbkstudio",
+        "source": "github.com/dmbkstudio/LipCmd",
+        "tags": [
+            "levilamina",
+            "lip"
+        ]
+    },
+    "asset_url": "https://github.com/GroupMountain/GMWhitelist/releases/download/v0.9.0/GMWhitelist-windows-x64.zip",
+    "dependencies": {},
+    "files": {
+        "place": [
+            {
+                "src": "LipCmd/*",
+                "dest": "plugins/Lipcmd"
+            }
+        ]
+    }
+}
