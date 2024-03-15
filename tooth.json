@@ -12,6 +12,8 @@
             "lip"
         ]
     },
+      "asset_url": "https://github.com/dmbkstudio/LipCmd/releases/download/v0.0.1/LipCmd.zip",
+    "dependencies": {
     "dependencies": {},
     "files": {
         "place": [
